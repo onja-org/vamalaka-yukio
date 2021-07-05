@@ -13,11 +13,11 @@ LearnEnabled.args = {
   learnEnabled: true,
   label: 'Learn more',
 }
-export const Learndisabled = Button.bind({})
-Learndisabled.args = {
-  learnabled: true,
+export const LearnDisabled = Button.bind({})
+LearnDisabled.args = {
+  learnEnabled: true,
   disabled: true,
-  label: 'Learn more',
+  label: 'Learn more',  
 }
 export const Trust = Button.bind({})
 Trust.args = {
